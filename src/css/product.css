@@ -1,0 +1,72 @@
+/* Enhanced styling for the card */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a floating effect */
+  }
+  
+  /* Styling for card images */
+  .card-img-top {
+    object-fit: contain; /* Ensures the image is fully visible and not cropped */
+    width: 100%; /* Make sure the image takes up the full width of the card */
+    height: 300px; /* Maintain a consistent height */
+    border-radius: 12px;
+    display: block; /* Ensure it's displayed as a block element */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  /* Button styles */
+  .btn-dark {
+    background-color: #b03c4c; /* Primary color */
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background-color: #f46c7c; /* Secondary color */
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+    color: #333;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Filter button styling */
+  .buttons button {
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #f46c7c; /* On hover, secondary color */
+    color: #fff;
+  }
+  
+  /* Page title */
+  h2.display-5 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  

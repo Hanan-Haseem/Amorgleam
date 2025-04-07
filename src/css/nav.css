@@ -1,0 +1,70 @@
+/* Remove the horizontal line (bottom border) */
+.custom-navbar {
+    background-color: #ffffff; /* Light gray background */
+    border-bottom: none; /* Remove the border */
+}
+
+/* Style for the navbar brand logo (only show the logo, no text) */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #b03c4c;
+    transition: all 0.3s ease;
+    padding-left: 0; /* Adjust padding to keep it clean */
+}
+
+.navbar-brand:hover {
+    color: #f46c7c; /* Change color on hover */
+}
+
+/* Logo size */
+/* Navbar Brand Logo Size */
+.logo-img {
+    width: 150px; /* Adjust this value to make the logo larger or smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Style for the navbar links */
+.navbar-nav .nav-link {
+    color: #333;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b03c4c; /* Change link color on hover */
+}
+
+/* Buttons Styling */
+.btn-outline-primary {
+    border-color: #b03c4c;
+    color: #b03c4c;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #b03c4c;
+    color: white;
+}
+
+/* Active link styling */
+.nav-link.active {
+    color: #b03c4c;
+    font-weight: bold;
+}
+
+/* Add custom styling for responsive navbar */
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+}
